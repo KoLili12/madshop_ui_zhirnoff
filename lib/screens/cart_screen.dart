@@ -98,7 +98,7 @@ class _CartScreenState extends State<CartScreen> {
 
             // Bottom Bar with Total and Checkout
             Container(
-              padding: const EdgeInsets.all(20),
+              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
               decoration: BoxDecoration(
                 color: AppColors.backgroundCartBar,
                 boxShadow: [
@@ -138,7 +138,7 @@ class _CartScreenState extends State<CartScreen> {
                       style: ElevatedButton.styleFrom(
                         backgroundColor: AppColors.buttonPrimary,
                         shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(16),
+                          borderRadius: BorderRadius.circular(11),
                         ),
                         elevation: 0,
                       ),
