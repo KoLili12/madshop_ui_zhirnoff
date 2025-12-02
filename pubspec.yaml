@@ -24,3 +24,34 @@ flutter:
   assets:
     - assets/icons/
     - assets/images/
+    - assets/images/tabbar_items/
+  
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/Raleway-Bold.ttf
+          weight: 700
+    
+    - family: Raleway-Regualar
+      fonts:
+        - asset: assets/fonts/Raleway-Regular.ttf
+          weight: 500
+
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+
+    - family: NunitoSans
+      fonts:
+        - asset: assets/fonts/NunitoSans-Light.ttf
+          weight: 300
+
+    - family: NunitoSans-400
+      fonts:
+        - asset: assets/fonts/NunitoSans-Light.ttf
+          weight: 400
